@@ -12,16 +12,16 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#navbar-example">
     <div class="container">
-      <header class="h1 bg-danger p-5 text-light text-center mb-4">
+      <header class="h1 bg-danger p-5 text-light text-center mb-5">
         JAVASCRIPT – OVERVIEW
       </header>
       <div class="container">
         <div class="row">
           <main class="col-9">
-            <article>
-              <header class="h2 border-bottom py-3">What is JavaScript?</header>
+            <article id="article-1">
+              <header class="h2 border-bottom pb-3">What is JavaScript?</header>
               <section class="fw-light mb-3">
                 Javascript is a dynamic computer programming language. It is
                 lightweight and most commonly used as a part of web pages, whose
@@ -69,7 +69,7 @@
                 </ul>
               </section>
             </article>
-            <article>
+            <article id="article-2">
               <header class="h2 border-bottom py-3">
                 Client-Side JavaScript
               </header>
@@ -102,7 +102,7 @@
                 </p>
               </section>
             </article>
-            <article>
+            <article id="article-3">
               <header class="h2 border-bottom py-3">
                 Advantages of JavaScript
               </header>
@@ -132,7 +132,7 @@
                 </p>
               </section>
             </article>
-            <article>
+            <article id="article-4">
               <header class="h2 border-bottom py-3">
                 Limitations of JavaScript
               </header>
@@ -162,7 +162,7 @@
                 </p>
               </section>
             </article>
-            <article>
+            <article id="article-5">
               <header class="h2 border-bottom py-3">
                 JavaScript Development Tools
               </header>
@@ -201,7 +201,7 @@
                 </ul>
               </section>
             </article>
-            <article>
+            <article id="article-6">
               <header class="h2 border-bottom py-3">
                 Where is JavaScript Today?
               </header>
@@ -223,7 +223,7 @@
                 </p>
               </section>
             </article>
-            <article>
+            <article id="article-7">
               <header class="h2 border-bottom py-3">HTML and JavaScript</header>
               <section>
                 <p>
@@ -267,7 +267,7 @@
                 </p>
               </section>
             </article>
-            <article>
+            <article id="article-8">
               <header class="h2 border-bottom py-3">
                 Short Video Tutorial
               </header>
@@ -299,22 +299,31 @@
             </article>
           </main>
           <aside class="col-3">
-            <p>In this chapter</p>
-            <nav
-              id="navbar-example3"
-              class="navbar navbar-light flex-column p-3"
-            >
-              <nav class="nav nav-pills flex-column">
-                <a class="nav-link" href="#item-1">What is JavaScript?</a>
-                <a class="nav-link" href="#item-2">Client-Side JavaScript</a>
-                <a class="nav-link" href="#item-3">Advantages of JavaScript</a>
-                <a class="nav-link" href="#item-3">Limitations of JavaScript</a>
-                <a class="nav-link" href="#item-3">JavaScript Development Tools</a>
-                <a class="nav-link" href="#item-3">Where is JavaScript Today?</a>
-                <a class="nav-link" href="#item-3">HTML and JavaScript</a>
-                <a class="nav-link" href="#item-3">Short Video Tutorial</a>
+            <aside class="sticky-top">
+              <p class="h5">In this chapter</p>
+              <nav
+                id="navbar-example"
+                class="nav flex-column nav-pills mb-3"
+              >
+                <a class="nav-link" href="#article-1">What is JavaScript?</a>
+                <a class="nav-link" href="#article-2">Client-Side JavaScript</a>
+                <a class="nav-link" href="#article-3"
+                  >Advantages of JavaScript</a
+                >
+                <a class="nav-link" href="#article-4"
+                  >Limitations of JavaScript</a
+                >
+                <a class="nav-link" href="#article-5"
+                  >JavaScript Development Tools</a
+                >
+                <a class="nav-link" href="#article-6"
+                  >Where is JavaScript Today?</a
+                >
+                <a class="nav-link" href="#article-7">HTML and JavaScript</a>
+                <a class="nav-link" href="#article-8">Short Video Tutorial</a>
               </nav>
-            </nav>
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" alt="JavaScript-logo" width="100%">
+            </aside>
           </aside>
         </div>
       </div>
